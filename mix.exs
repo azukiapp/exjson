@@ -4,7 +4,8 @@ defmodule Exjson.Mixfile do
   def project do
     [ app: :exjson,
       version: "0.0.1",
-      deps: deps ]
+      deps: deps,
+      compile: "make" ]
   end
 
   # Configuration for the OTP application
